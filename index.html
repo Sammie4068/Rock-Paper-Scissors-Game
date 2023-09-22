@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock|Paper|Scissors</title>
+    <link rel="shortcut icon" href="#" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head-text">
+      <h1 class="title">Let's play Rock Paper Scissors!</h1>
+      <p class="sub-title">click the buttons to play.</p>
+    </div>
+    <div class="button-container">
+      <button class="playBtns">Rock</button>
+      <button class="playBtns">Paper</button>
+      <button class="playBtns">Scissors</button>
+    </div>
+    <div id="result-container">
+      <div class="result-display"><h2>Can You Win?</h2></div>
+      <div class="round-result"><p></p></div>
+    </div>
+    <div class="score-container">
+      <div class="human-score">
+        <div class="h-s-text"><h3>Your Score:</h3></div>
+        <div class="h-s-num">0</div>
+        <div class="userChoice"></div>
+      </div>
+      <button class="new--game">New Game</button>
+      <div class="computer-score">
+        <div class="c-s-text"><h3>Computer Score:</h3></div>
+        <div class="c-s-num">0</div>
+        <div class="compChoice"></div>
+      </div>
+    </div>
+    <audio id="click" src="./click.mp3" type="audio/mpeg"></audio>
+  </body>
+</html>
